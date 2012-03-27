@@ -9,18 +9,19 @@ src: url('../type/Gotham-Medium.ttf');
 body{
 	margin:0px;
 	background:#fafaf8;	
-	font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';
+	font-family: 'Open Sans Condensed', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';
+	letter-spacing: ;
 }
 h1{
 	font-size:37px;
-	font-family:Gotham;
-	font-weight:bold;
 	color:#3b3b3b;	
+	font-family:'Open Sans Condensed', Helvetica, Gotham;	
+	font-weight: 700;
 }
 h2{
 	font-size:28px;
 	color:#4299ce;
-	font-weight:normal;	
+	font-weight:700;	
 }
 h3{
 	font-size:30px;
@@ -91,7 +92,6 @@ ul{
 	font-weight:bold;
 	color:#fff;	
 	float:right;
-	font-family:Gotham;
 	margin-right:10px;
 }
 input{
@@ -118,10 +118,9 @@ input{
 	background:url(../images/main_nav_bg.jpg) repeat-x;	
 }
 #nav_cont{
-	width:870px;
+	width:750px;
 	height:84px;
 	margin:0px auto;
-	font-family:Gotham, Verdana, Geneva, sans-serif;	
 }
 #nav_cont ul{
 	margin:0px;
@@ -130,7 +129,7 @@ input{
 }
 #nav_cont ul li{
 	float:left;
-	font-size:20px;
+	font-size:24px;
 	line-height:63px;
 	text-align:center;	
 }
@@ -140,11 +139,14 @@ input{
 	text-decoration:none;
 	color:#3b3b3b;
 	display:block;
-	height:84px;	
+	height:84px;
+	font-family:'Open Sans Condensed', Helvetica, Gotham;	
+	font-weight: 700;
+	
+		
 }
 #nav_cont ul li a:hover{
 	color:#fff;
-	font-family:Gotham, Verdana, Geneva, sans-serif;
 	background:url(../images/nav_hover.png) center no-repeat;	
 }
 #wrapper{
@@ -162,7 +164,6 @@ input{
 	height:auto;
 	float:left;	
 	padding:0px 10px;
-	font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';
 }
 .cufon_head{
 	font-size:70px;
