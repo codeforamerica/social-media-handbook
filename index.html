@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Javascript · Twitter Bootstrap</title>
+    <title>The CfA Accelerator: Disruption as a Public Service</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Code for America is launching a new civic startup accelerator.">
     <meta name="author" content="">
 
     <!-- Le styles -->
@@ -35,7 +35,7 @@
 				    <div id="banner_txt"> <span class="top_cufon">DISRUPTION AS A PUBLIC SERVICE</span> </span><br/>
 				      <span class="banner_des">Code for America is launching a seed accelerator.</span><br/>
 				      <div class="Apply">
-				        <input name="" class="button" type="submit" value="Apply  Now" data-toggle="modal" href="#myModal" />
+				        <button name="" class="button" type="submit" value="Apply  Now" data-toggle="modal" href="#myModal" />Apply Now</button>
 				      </div>
 				    </div>
 				  </div>
@@ -183,16 +183,44 @@
 
     </div><!-- /container -->
 
+	  <div class="modal hide" id="myModal">
+	  <!--  <div class="modal-header">
+	      <a class="close" data-dismiss="modal">×</a>
+	    </div>-->
+	    <div class="modal-body">
+	        <div id="wufoo-q7x0w7">
+	        Fill out my <a href="http://codeforamerica.wufoo.com/forms/q7x0w7">online form</a>.
+	        </div>
+	        <script type="text/javascript">var q7x0w7;(function(d, t) {
+	        var s = d.createElement(t), options = {
+	        'userName':'codeforamerica', 
+	        'formHash':'q7x0w7', 
+	        'autoResize':true,
+	        'height':'1000',
+	        'async':true,
+	        'header':'show', 
+	        'ssl':true};
+	        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+	        s.onload = s.onreadystatechange = function() {
+	        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+	        try { q7x0w7 = new WufooForm();q7x0w7.initialize(options);q7x0w7.display(); } catch (e) {}};
+	        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+	        })(document, 'script');</script>
+	    </div>
+	    <div class="modal-footer">
+	      <a class="close btn" data-dismiss="modal">Close</a>
+	    </div>
+	  </div>
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 	
-<script src="js/bootstrap-transition.js"></script>
-<script src="js/bootstrap-modal.js"></script>
-<script src="js/bootstrap-scrollspy.js"></script>
-<script src="js/application.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	  <script src="js/bootstrap-transition.js"></script>
+	  <script src="js/bootstrap-modal.js"></script>
+	  <script src="js/bootstrap-scrollspy.js"></script>
+	  <script src="js/application.js"></script>
 
   </body>
 </html>
