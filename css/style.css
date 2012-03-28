@@ -440,6 +440,10 @@ ul{
 	padding-bottom: 15px;
 }
 
+#sponsors{
+	padding: 30px 10px 75px 10px;
+}
+
 #footer_cont{
 	float:left;
 	width:100%;
@@ -478,17 +482,9 @@ ul{
   width: 22%;
 }
 
-.row {
-  margin-left: -20px;
-  *zoom: 1;
-}
-.row:before,
-.row:after {
-  display: table;
-  content: "";
-}
-.row:after {
-  clear: both;
+.span4 {
+  width: 250px;
+  text-align: center;
 }
 
 [class*="span"] {
