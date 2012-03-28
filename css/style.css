@@ -1,11 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-@font-face {
-font-family: 'Gotham';
-src: url('../type/Gotham-Medium.ttf');
-}
-
 body{
 	margin:0px;
 	background:#fafaf8;	
@@ -283,7 +278,7 @@ ul{
 .top_art_cont{
 	width:850px;
 	float:left;	
-	font-size:20px;
+	font-size:18px;
 	height:auto;
 	color:#5d5d5c;
 }
@@ -298,6 +293,8 @@ ul{
 .spend_cont{
 	width:305px;
 	float:right;
+	padding-top: 10px;
+	
 }
 
 .spend_top{
@@ -429,7 +426,7 @@ ul{
 
 .team_li_cont li{
 	color: #5D5D5C;
-    font-size: 20px;
+    font-size:  18px;
     margin-bottom: 5px;
 }
 
@@ -439,7 +436,7 @@ ul{
 
 #faq p.answers{
 	font-size: 17px;
-	line-height: 23px;
+	line-height: 26px;
 	padding-bottom: 15px;
 }
 
@@ -465,6 +462,16 @@ ul{
 	float:left;	
 	height:auto;
 	color:#5d5d5c;
+}
+
+.span3 img {
+	display: block;  
+	margin-left: auto;  
+	margin-right: auto;
+}
+
+.span3 p {
+	margin-top: 0px;
 }
 
 .span3 {
