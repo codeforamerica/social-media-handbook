@@ -446,7 +446,7 @@ ul{
 #footer_cont{
 	float:left;
 	width:100%;
-	height:198px;
+	height:50px;
 	background:#c91f3d;
 	text-align: center;
 }
@@ -461,9 +461,32 @@ ul{
 }
 
 .program_cont{
-	width:100%;
-	height:auto;
+	width:850px;
 	float:left;	
+	height:auto;
+	color:#5d5d5c;
+}
+
+.span3 {
+  width: 22%;
+}
+
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+}
+.row:after {
+  clear: both;
+}
+
+[class*="span"] {
+  float: left;
+  margin-left: 25px;
 }
 
 
