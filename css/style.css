@@ -33,6 +33,13 @@ h3{
 	background:url(../images/team_heading.png) center no-repeat;	
 }
 
+h4 {
+	font-size: 28px;
+	font-weight: 700;
+	color: #c91f3d;
+	margin-bottom: 20px;
+}
+
 h5 {
 	font-size:28px;
 	font-weight:normal;	
@@ -404,6 +411,29 @@ ul{
 
 .proof_cont img{
 	margin:8px 10px;	
+}
+
+img.advisoricons{
+	vertical-align: -17px;
+}
+
+.advisorimages div{
+	text-align: center;
+	margin: auto;
+	width: 408px;
+}
+
+.advisorimages li{
+	float: left;
+	background: #ffffff;
+}
+
+.advisorimages img{
+	margin: 8px 0px 2px 8px;
+}
+
+.advisorimages li:last-child img{
+	margin-right: 8px;
 }
 
 .team_li_cont{
