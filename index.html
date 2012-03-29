@@ -20,6 +20,19 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
+
+
+		<script type="text/javascript">
+
+		$(document).ready(function() {
+
+		  $("div.app").hide(); 
+			$(".apply a").click(function() {
+		      $(".app").show();
+		   });
+
+		});
+		</script>
   </head>
 
   <body data-spy="scroll" data-target=".subnav" data-offset="550">
@@ -31,14 +44,15 @@
 				</div>
 				<div id="banner_cont">
 				  <div id="banner_bg">
-				    <div id="banner_txt"> <span class="top_cufon">DISRUPTION AS A PUBLIC SERVICE</span> </span><br/>
+				    <div id="banner_txt"> <span class="top_cufon">NOW RECRUITING: CIVIC STARTUPS</span> </span><br/>
 				      <span class="banner_des">Code for America is launching a seed accelerator.</span><br/>
 				      <div class="Apply">
-				        <button name="" class="button" type="submit" value="Apply  Now" data-toggle="modal" href="#myModal" />Apply Now</button>
+				        <button name="" class="button" type="submit" value="Apply  Now" href="#myModal" />Apply Now</button>
 				      </div>
 				    </div>
 				  </div>
 				</div>
+				<div id="information">
         <div id="main_nav_cont" class="subnav">
 					<div id="nav_cont">
           <ul class="nav nav-pills">
@@ -51,7 +65,7 @@
 					</div>
         </div>
 			<div id="wrapper">
-			  <div id="main_container">
+			  <div id="main_container" class="info">
 			    <div class="main_cont" id="opportunity">
 			      <h1>THE OPPORTUNITY</h1>
 			      <div class="top_art_cont">
@@ -75,22 +89,23 @@
 			      <div class="top_art_cont">The 4-month program will focus on early stage startups, providing them the network and training needed to grow their businesses. Every month, the startup teams will be brought together in CfA’s San Francisco offices for intensive week-long curriculum led by industry experts and networking events with investors. Throughout the remainder of the program, the startups will have access to hands-on mentorship, administrative support, and office space.</div>
 			      <div class="program_cont row">
 			        <h3>What We Offer</h3>
-					<div class="span3">
-						<img src="images/storek.png">
-						<p>Training and guidance on navigating the civic space from experts from industry, government, and startups</p>
-					</div>
-					<div class="span3">
-						<img src="images/pig.png">
-						<p>Training and guidance on navigating the civic space from experts from industry, government, and startups</p>
-					</div>
-					<div class="span3">
-						<img src="images/person.png">
-						<p>Training and guidance on navigating the civic space from experts from industry, government, and startups</p>
-					</div>
-					<div class="span3">
-						<img src="images/networking.png">
-						<p>Training and guidance on navigating the civic space from experts from industry, government, and startups</p>
-					</div>
+							<div class="span3">
+								<img src="images/pig.png">
+								<p>Some seed funding ($25K) to help you grow the business; use it for whatever you'd like. Really. No strings attached.</p>
+							</div>
+							<div class="span3">
+								<img src="images/storek.png">
+								<p>A place to work in San Francisco, for those in the area, with desks, wifi, snacks, and (at least a few) cool people</p>
+							</div>
+							<div class="span3">
+								<img src="images/networking.png">
+								<p>Mentorship, support, and guidance from a mix of industry, VC, and civic leaders, all committed to your success</p>
+							</div>
+							<div class="span3">
+								<img src="images/institution.png">
+								<p>Direct connections to the people you're trying to work with: forward-thinking governments across the country</p>
+							</div>
+
 			       <!-- <ul>
 			          <li>4-month program with ongoing mentorship</li>
 			          <li>$25,000 Startup grant to each team</li>
@@ -117,7 +132,7 @@
 			      <h1>THE TEAM</h1>
 			      <div class="top_art_cont">The teams will have access to dozens of leading government officials with insight into the civic space, entrepreneurs with the experience of starting a company, and industry leader with the know-how of taking a business to scale.</div>
 			      <div class="proof_cont">
-			        <h3>Advisors & Mentors</h3>
+			        <h3>Mentors</h3>
 					<div class="advisorimages">
 			          <h4><img class="advisoricons" src="images/gov_icon.png"/> Government</h4>
 					  <div>
@@ -193,23 +208,21 @@
 				</div>
 			  </div>
 			</div>
-
-     <!-- Footer
-      ================================================== -->
-      <footer class="footer">
-  <div id="footer_cont">
-	<img src="images/flag_tag.png"/><img
-	</div>    
-      </footer>
-
-    </div><!-- /container -->
-
-	  <div class="modal hide" id="myModal">
-	  <!--  <div class="modal-header">
-	      <a class="close" data-dismiss="modal">×</a>
-	    </div>-->
-	    <div class="modal-body">
-	        <div id="wufoo-q7x0w7">
+			</div>
+			</div>
+			
+			<div id="application">
+			  <div id="main_nav_cont" class="subnav">
+					<div id="nav_cont">
+          <ul class="nav nav-pills">
+			      <li>The Application</li>
+						<span><a class="back close" style-"float: right">x</a></span>
+          </ul>
+					</div>
+        </div>
+			<div id="wrapper">
+			  <div id="main_container" class="app">				
+				  <div id="wufoo-q7x0w7">
 	        Fill out my <a href="http://codeforamerica.wufoo.com/forms/q7x0w7">online form</a>.
 	        </div>
 	        <script type="text/javascript">var q7x0w7;(function(d, t) {
@@ -227,11 +240,19 @@
 	        try { q7x0w7 = new WufooForm();q7x0w7.initialize(options);q7x0w7.display(); } catch (e) {}};
 	        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
 	        })(document, 'script');</script>
-	    </div>
-	    <div class="modal-footer">
-	      <a class="close btn" data-dismiss="modal">Close</a>
-	    </div>
-	  </div>
+		  </div>
+		</div>
+		</div>
+
+     <!-- Footer
+      ================================================== -->
+      <footer class="footer">
+  <div id="footer_cont">
+	<img src="images/flag_tag.png"/><img
+	</div>    
+      </footer>
+
+    </div><!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
@@ -243,6 +264,19 @@
 	  <script src="js/bootstrap-scrollspy.js"></script>
 	  <script src="js/application.js"></script>
 	  <script src="js/bootstrap-popover.js"></script>
+
+		<script type="text/javascript">
+
+	  $("div#application").hide(); 
+			$(":button").click(function() {
+		    $("#information").hide();
+		    $("#application").show();
+		   });
+			$("div#application a.back").click(function() {
+		    $("#application").hide();
+		    $("#information").show();
+		   });
+		</script>
 
   </body>
 </html>
