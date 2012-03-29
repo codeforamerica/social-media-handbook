@@ -1299,3 +1299,19 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
+.close {bootstrap.css:1945
+float: right;
+font-size: 20px;
+font-weight: bold;
+line-height: 32px;
+color: black;
+text-shadow: 0 1px 0 white;
+opacity: 0.2;
+filter: alpha(opacity=20);
+margin-left: 10px;
+}
+
+#application {
+	height: 1750px;
+	overflow: hidden;
+}

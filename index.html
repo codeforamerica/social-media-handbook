@@ -21,6 +21,19 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
+
+
+		<script type="text/javascript">
+
+		$(document).ready(function() {
+
+		  $("div.app").hide(); 
+			$(".apply a").click(function() {
+		      $(".app").show();
+		   });
+
+		});
+		</script>
   </head>
 
   <body data-spy="scroll" data-target=".subnav" data-offset="550">
@@ -35,11 +48,12 @@
 				    <div id="banner_txt"> <span class="top_cufon">DISRUPTION AS A PUBLIC SERVICE</span> </span><br/>
 				      <span class="banner_des">Code for America is launching a seed accelerator.</span><br/>
 				      <div class="Apply">
-				        <button name="" class="button" type="submit" value="Apply  Now" data-toggle="modal" href="#myModal" />Apply Now</button>
+				        <button name="" class="button" type="submit" value="Apply  Now" href="#myModal" />Apply Now</button>
 				      </div>
 				    </div>
 				  </div>
 				</div>
+				<div id="information">
         <div id="main_nav_cont" class="subnav">
 					<div id="nav_cont">
           <ul class="nav nav-pills">
@@ -52,7 +66,7 @@
 					</div>
         </div>
 			<div id="wrapper">
-			  <div id="main_container">
+			  <div id="main_container" class="info">
 			    <div class="main_cont" id="opportunity">
 			      <h1>THE OPPORTUNITY</h1>
 			      <div class="top_art_cont">
@@ -194,23 +208,21 @@
 				</div>
 			  </div>
 			</div>
-
-     <!-- Footer
-      ================================================== -->
-      <footer class="footer">
-  <div id="footer_cont">
-	<img src="images/flag_tag.png"/><img
-	</div>    
-      </footer>
-
-    </div><!-- /container -->
-
-	  <div class="modal hide" id="myModal">
-	  <!--  <div class="modal-header">
-	      <a class="close" data-dismiss="modal">×</a>
-	    </div>-->
-	    <div class="modal-body">
-	        <div id="wufoo-q7x0w7">
+			</div>
+			</div>
+			
+			<div id="application">
+			  <div id="main_nav_cont" class="subnav">
+					<div id="nav_cont">
+          <ul class="nav nav-pills">
+			      <li>The Application</li>
+						<span><a class="back close" style-"float: right">x</a></span>
+          </ul>
+					</div>
+        </div>
+			<div id="wrapper">
+			  <div id="main_container" class="app">				
+				  <div id="wufoo-q7x0w7">
 	        Fill out my <a href="http://codeforamerica.wufoo.com/forms/q7x0w7">online form</a>.
 	        </div>
 	        <script type="text/javascript">var q7x0w7;(function(d, t) {
@@ -228,11 +240,19 @@
 	        try { q7x0w7 = new WufooForm();q7x0w7.initialize(options);q7x0w7.display(); } catch (e) {}};
 	        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
 	        })(document, 'script');</script>
-	    </div>
-	    <div class="modal-footer">
-	      <a class="close btn" data-dismiss="modal">Close</a>
-	    </div>
-	  </div>
+		  </div>
+		</div>
+		</div>
+
+     <!-- Footer
+      ================================================== -->
+      <footer class="footer">
+  <div id="footer_cont">
+	<img src="images/flag_tag.png"/><img
+	</div>    
+      </footer>
+
+    </div><!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
@@ -243,6 +263,19 @@
 	  <script src="js/bootstrap-modal.js"></script>
 	  <script src="js/bootstrap-scrollspy.js"></script>
 	  <script src="js/application.js"></script>
+
+		<script type="text/javascript">
+
+	  $("div#application").hide(); 
+			$(":button").click(function() {
+		    $("#information").hide();
+		    $("#application").show();
+		   });
+			$("div#application a.back").click(function() {
+		    $("#application").hide();
+		    $("#information").show();
+		   });
+		</script>
 
   </body>
 </html>
