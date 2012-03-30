@@ -412,9 +412,7 @@ ul{
 .proof_cont img{
 	margin:8px 10px;
 }
-/*.mentor_cont{
-	margin-bottom: 25px;
-}*/
+
 img.advisoricons{
 	vertical-align: -17px;
 }
@@ -513,6 +511,7 @@ img.advisoricons{
 
 .span3 p {
 	margin-top: 0px;
+	line-height: 23px;
 }
 
 .span3 {
