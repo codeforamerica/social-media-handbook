@@ -88,7 +88,7 @@
 			      <h1>THE PROGRAM</h1>
 			      <div class="top_art_cont">The 4-month program will focus on early stage startups, providing them the network and training needed to grow their businesses. Every month, the startup teams will be brought together in CfA’s San Francisco offices for intensive week-long curriculum led by industry experts and networking events with investors. Throughout the remainder of the program, the startups will have access to hands-on mentorship, administrative support, and office space.</div>
 			      <div class="program_cont row">
-			        <h3>What We Offer</h3>
+			        <h3 class="ribbon">What We Offer</h3>
 							<div class="span3">
 								<img src="images/pig.png">
 								<p>Some seed funding ($25K) to help you grow the business; use it for whatever you'd like. Really. No strings attached.</p>
@@ -132,15 +132,15 @@
 			      <h1>THE TEAM</h1>
 			      <div class="top_art_cont">The teams will have access to dozens of leading government officials with insight into the civic space, entrepreneurs with the experience of starting a company, and industry leader with the know-how of taking a business to scale.</div>
 			      <div class="proof_cont">
-			        <h3>Mentors</h3>
+			        <h3 class="ribbon">Mentors</h3>
 					<div class="advisorimages">
 			          <h4><img class="advisoricons" src="images/gov_icon.png"/> Government</h4>
 					  <div>
 			          <ul>
-			            <li><img src="images/john_tolva.jpg"></img></li>
-						<li><img src="images/john_tolva.jpg"></img></li>
-						<li><img src="images/john_tolva.jpg"></img></li>
-						<li><img src="images/john_tolva.jpg"></img></li>
+			            <li><img src="images/john_tolva.jpg" title="John Tolva" data-content="Chief Technology Officer"></img></li>
+						<li><img src="images/john_tolva.jpg" title="John Tolva"></img></li>
+						<li><img src="images/john_tolva.jpg" title="John Tolva"></img></li>
+						<li><img src="images/john_tolva.jpg" title="John Tolva"></img></li>
 			          </ul>
 					  </div>
 			        </div>
@@ -263,6 +263,7 @@
 	  <script src="js/bootstrap-modal.js"></script>
 	  <script src="js/bootstrap-scrollspy.js"></script>
 	  <script src="js/application.js"></script>
+	  <script src="js/bootstrap-tooltip.js"></script>
 	  <script src="js/bootstrap-popover.js"></script>
 
 		<script type="text/javascript">
@@ -276,6 +277,9 @@
 		    $("#application").hide();
 		    $("#information").show();
 		   });
+		
+		$('.advisorimages ul li img').popover({placement: 'top'});
+		
 		</script>
 
   </body>
