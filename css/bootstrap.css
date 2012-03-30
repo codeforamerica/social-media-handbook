@@ -3248,7 +3248,7 @@ input[type="submit"].btn.btn-mini {
   margin: 0;
 }
 .popover-content {
-  padding: 0px 14px;
+  padding: 14px;
   background-color: #ffffff;
   -webkit-border-radius: 0 0 3px 3px;
   -moz-border-radius: 0 0 3px 3px;

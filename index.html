@@ -18,7 +18,7 @@
 		
 		<link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
 
 
@@ -120,21 +120,33 @@
 			    </div>
 			    <div class="main_cont" id="team">
 			      <h1>THE TEAM</h1>
-			      <div class="top_art_cont">The teams will have access to dozens of leading government officials with insight into the civic space, entrepreneurs with the experience of starting a company, and industry leader with the know-how of taking a business to scale.</div>
+			      <div class="top_art_cont">The teams will have access to dozens of leading government officials with insight into the civic space, entrepreneurs with the experience of starting a company, and industry leader with the know-how of taking a business to scale.
+				  </div>
 			      <div class="proof_cont">
 			        <h3 class="ribbon">Mentors</h3>
 					<div class="advisorimages">
 			          <h4><img class="advisoricons" src="images/gov_icon.png"/> Government</h4>
-					  <div >
-			          <ul>
-			            <li><img src="images/john_tolva.jpg" rel="popover" title="John Tolva" data-content="Chief Technology Officer <br/> City of Chicago"></img></li>
-						<li><img src="images/john_tolva.jpg" title="Brett Goldstein" data-content="Chief Data Officer <br/> City of Chicago"></img></li>
-						<li><img src="images/john_tolva.jpg" title="John Tolva"></img></li>
-						<li><img src="images/john_tolva.jpg" title="John Tolva"></img></li>
-			          </ul>
+					  <div>
+			          	<ul>
+			            	<li><img src="images/john_tolva.jpg" rel="popover" title="John Tolva" data-content="<span class='popovercontentstyle'>Chief Technology Officer</span><br/>City of Chicago"></img></li>
+							<li><img src="images/john_tolva.jpg" rel="popover" title="Brett Goldstein" data-content="<span class='popovercontentstyle'>Chief Data Officer</span><br/>City of Chicago"></img></li>
+							<li><img src="images/john_tolva.jpg" rel="popover" title="Nigel Jacobs" data-content="<span class='popovercontentstyle'>Co-Chair</span><br/>Mayor's Office of New Mechanics"></img></li>
+							<li><img src="images/john_tolva.jpg" rel="popover" title="John Tolva" data-content="<span class='popovercontentstyle'>Chief Technology Officer</span><br/>City of Chicago"></img></li>
+			          	</ul>
 					  </div>
-			        </div>
-			      <div id="finish_line_cont"></div>
+					</div>
+					<div class="advisorimages">
+			          <h4><img class="advisoricons" src="images/industry_icon.png"/> Industry</h4>
+					  <div>
+			          	<ul>
+			            	<li><img src="images/john_tolva.jpg" rel="popover" title="John Tolva" data-content="<span class='popovercontentstyle'>Chief Technology Officer</span><br/>City of Chicago"></img></li>
+							<li><img src="images/john_tolva.jpg" rel="popover" title="Brett Goldstein" data-content="<span class='popovercontentstyle'>Chief Data Officer</span><br/>City of Chicago"></img></li>
+							<li><img src="images/john_tolva.jpg" rel="popover" title="Nigel Jacobs" data-content="<span class='popovercontentstyle'>Co-Chair</span><br/>Mayor's Office of New Mechanics"></img></li>
+							<li><img src="images/john_tolva.jpg" rel="popover" title="John Tolva" data-content="<span class='popovercontentstyle'>Chief Technology Officer</span><br/>City of Chicago"></img></li>
+			          	</ul>
+					  </div>
+					</div>
+			    <div id="finish_line_cont"></div>
 			    </div>
 			    <div class="main_cont faq_h" id="faq">
 			      <h1>FAQ</h1>
@@ -231,7 +243,9 @@
 		    $("#information").show();
 		   });
 		
-		$('.advisorimages ul li img').popover({placement: 'top'});
+		$('.advisorimages ul li img').popover({
+			placement: 'top',
+			animation: false});
 		
 		</script>
 
