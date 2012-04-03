@@ -233,9 +233,10 @@ ul{
 
 #nav_cont ul li{
 	float:left;
+	font-weight:700;	
 	font-size:24px;
 	line-height:63px;
-	text-align:center;	
+	text-align:center;
 }
 
 #nav_cont ul li a{
