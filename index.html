@@ -21,18 +21,6 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
 
-
-		<script type="text/javascript">
-
-		$(document).ready(function() {
-
-		  $("div.app").hide(); 
-			$(".apply a").click(function() {
-		      $(".app").show();
-		   });
-
-		});
-		</script>
   </head>
 
   <body data-spy="scroll" data-target=".subnav" data-offset="550">
@@ -40,7 +28,7 @@
       <!-- Masthead
       ================================================== -->
 				<div id="header">
-				  <div id="header_logo_cont"> <img src="images/logo.jpg" width="327" height="141" alt="Code for America" /> </div>
+				  <div id="header_logo_cont"> <a href="index.html"><img src="images/logo.jpg" width="327" height="141" alt="Code for America" /></a> </div>
 				</div>
 				<div id="banner_cont">
 				  <div id="banner_bg">
@@ -272,6 +260,8 @@
 			$(":button").click(function() {
 		    $("#information").hide();
 		    $("#application").show();
+				window.scrollTo(0,500);
+	
 		   });
 			$("div#application a.back").click(function() {
 		    $("#application").hide();
