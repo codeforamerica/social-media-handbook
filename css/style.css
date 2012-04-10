@@ -426,7 +426,7 @@ img.advisoricons{
 .advisorimages div{
 	text-align: center;
 	margin: auto;
-	width: 408px;
+	width: 550px;
 }
 
 .advisorimages li{
@@ -436,6 +436,7 @@ img.advisoricons{
 
 .advisorimages img{
 	margin: 8px 0px 2px 8px;
+	width: 100px;
 }
 
 .advisorimages li:last-child img{

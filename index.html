@@ -21,18 +21,6 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
 
-
-		<script type="text/javascript">
-
-		$(document).ready(function() {
-
-		  $("div.app").hide(); 
-			$(".apply a").click(function() {
-		      $(".app").show();
-		   });
-
-		});
-		</script>
   </head>
 
   <body data-spy="scroll" data-target=".subnav" data-offset="550">
@@ -40,14 +28,14 @@
       <!-- Masthead
       ================================================== -->
 				<div id="header">
-				  <div id="header_logo_cont"> <img src="images/logo.jpg" width="327" height="141" alt="Code for America" /> </div>
+				  <div id="header_logo_cont"> <a href="index.html"><img src="images/logo.jpg" width="327" height="141" alt="Code for America" /></a> </div>
 				</div>
 				<div id="banner_cont">
 				  <div id="banner_bg">
 				    <div id="banner_txt"> <span class="top_cufon">NOW RECRUITING: CIVIC STARTUPS</span> </span><br/>
 				      <span class="banner_des">Code for America is launching a seed accelerator.</span><br/>
 				      <div class="Apply">
-				        <button name="" class="button" type="submit" value="Apply  Now" href="#myModal" />Apply Now</button>
+				        <button name="" class="button" type="submit" value="Apply  Now" />Apply Now</button>
 				      </div>
 				    </div>
 				  </div>
@@ -71,8 +59,7 @@
 			      <div class="top_art_cont">
 			        <div class="left_art">
 			        	<p>The past few decades have seen staggering advances in technology, but government has been left behind, saddled with outdated and inefficient software, while costs have exploded into the hundreds of billions. That means there’s both the imperative and the market for new, disruptive startups.</p>
-						<p>The success of the few but growing number of civic startups over the past few years, such as BrightScope, Socrata, and even Code for America itself, suggests that innovative companies can find a customer base with either governments or citizens themselves.</p>
-						<p>The Code for America Accelerator will provide select civic startups a platform to drive product awareness, provide business training and connections to a broad network of investors and civic leaders.</p>
+						<p>The Code for America Accelerator will "turbo-charge" select civic startups by providing them an opportunity to amplify market awareness of their product, access a wealth of business training and advice, and be introduced to a broad network of potential investors and civic leaders.</p>
 			        </div>
 			        <div class="spend_cont">
 			          <div class="spend_top">IT spending<br/>
@@ -86,7 +73,11 @@
 			    </div>
 			    <div class="main_cont" id="program">
 			      <h1>THE PROGRAM</h1>
-			      <div class="top_art_cont">The 4-month program will focus on early stage startups, providing them the network and training needed to grow their businesses. Every month, the startup teams will be brought together in CfA’s San Francisco offices for intensive week-long curriculum led by industry experts and networking events with investors. Throughout the remainder of the program, the startups will have access to hands-on mentorship, administrative support, and office space.</div>
+			      <div class="top_art_cont">
+							<p>The 4-month program will focus on early stage startups, providing them the network and training needed to grow their businesses. Every month, the startup teams will be brought together in CfA’s San Francisco offices for intensive week-long curriculum led by industry experts and networking events with investors. Throughout the remainder of the program, the startups will have access to hands-on mentorship, administrative support, and office space.</p>
+							<p>The program will start August 2012 and run through November.<br />
+								The deadline for applications is June 1, 2012. Apply now.
+								</p></div>
 			      <div class="program_cont row">
 			        <h3 class="ribbon">What We Offer</h3>
 							<div class="span4">
@@ -119,11 +110,16 @@
 			    <div class="main_cont" id="proof">
 			      <h1>THE PROOF</h1>
 			      <div class="top_art_cont">We believe there's a tremendous opportunity out there for new civic startups, if for no other reason than that there's a host of startups already succeeding in this space. There examples should serve as precedents in this emerging market.<br/>
-			        <br/>
-			        Select any of the companies listed below for more information about their product, their approach, and their story.</div>
-			      <div class="proof_cont"><img src="images/neighbor.jpg" width="340" height="85" /><img src="images/everyBlock.jpg" width="251" height="85" /><img src="images/socrata.jpg" width="190" height="85" /><br/>
-			        <img src="images/palantir.jpg" width="189" height="66" /><img src="images/seeClickFix.jpg" width="245" height="66" /><img src="images/BrightScope.jpg" width="228" height="66" /><br/>
-			        <img src="images/WeatherChannel.jpg" width="136" height="117" /><img src="images/turboTax.jpg" width="237" height="117" /></div>
+			       </div>
+			      <div class="proof_cont">
+				<!--<img src="images/neighbor.jpg" width="340" height="85" />
+				<img src="images/everyBlock.jpg" width="251" height="85" /><img src="images/socrata.jpg" width="190" height="85" />
+				<br/>-->
+			  <img src="images/palantir.jpg" width="189" height="66" />
+			<img src="images/seeClickFix.jpg" width="245" height="66" />
+			<img src="images/BrightScope.jpg" width="228" height="66" />
+		<!--	<br/>
+			   <img src="images/WeatherChannel.jpg" width="136" height="117" /><img src="images/turboTax.jpg" width="237" height="117" /></div>-->
 			      <div id="finish_line_cont"></div>
 			    </div>
 			    <div class="main_cont" id="team">
@@ -131,29 +127,59 @@
 			      <div class="top_art_cont">The teams will have access to dozens of leading government officials with insight into the civic space, entrepreneurs with the experience of starting a company, and industry leader with the know-how of taking a business to scale.
 				  </div>
 			      <div class="proof_cont">
-			        <h3 class="ribbon">Mentors</h3>
+			        <h3 class="ribbon">Leadership</h3>
 					<div class="advisorimages">
-			          <h4><img class="advisoricons" src="images/gov_icon.png"/> Government</h4>
+			        <!--  <h4><img class="advisoricons" src="images/gov_icon.png"/> Government</h4> -->
 					  <div>
 			          	<ul>
-			            	<li><img src="images/john_tolva.jpg" rel="popover" title="John Tolva" data-content="<span class='popovercontentstyle'>Chief Technology Officer</span><br/>City of Chicago"></img></li>
-							<li><img src="images/john_tolva.jpg" rel="popover" title="Brett Goldstein" data-content="<span class='popovercontentstyle'>Chief Data Officer</span><br/>City of Chicago"></img></li>
-							<li><img src="images/john_tolva.jpg" rel="popover" title="Nigel Jacobs" data-content="<span class='popovercontentstyle'>Co-Chair</span><br/>Mayor's Office of New Mechanics"></img></li>
-							<li><img src="images/john_tolva.jpg" rel="popover" title="John Tolva" data-content="<span class='popovercontentstyle'>Chief Technology Officer</span><br/>City of Chicago"></img></li>
+			            	<li><img src="images/ron_bouganim.png" rel="popover" title="Ron Bouganim" data-content="<span class='popovercontentstyle'>Director</span><br/>CfA Accelerator"></img></li>
+							<li><img src="images/aneesh_chopra.png" rel="popover" title="Aneesh Chopra" data-content="<span class='popovercontentstyle'>Fmr. Chief Data Officer</span><br/>White House"></img></li>
+							<li><img src="images/caterina_fake.png" rel="popover" title="Caterina Fake" data-content="<span class='popovercontentstyle'>Co-Founder</span><br/>Flickr, PinWheel"></img></li>
+							<li><img src="images/peter_schwartz.png" rel="popover" title="Peter Schwartz" data-content="<span class='popovercontentstyle'>Founder</span><br/>Global Business Network"></img></li>
+							<li><img src="images/ron_conway.png" rel="popover" title="Ron Conway" data-content="<span class='popovercontentstyle'>Partner</span><br/>SV Angel"></img></li>
 			          	</ul>
 					  </div>
 					</div>
-					<div class="advisorimages">
-			          <h4><img class="advisoricons" src="images/industry_icon.png"/> Industry</h4>
-					  <div>
-			          	<ul>
-			            	<li><img src="images/john_tolva.jpg" rel="popover" title="John Tolva" data-content="<span class='popovercontentstyle'>Chief Technology Officer</span><br/>City of Chicago"></img></li>
-							<li><img src="images/john_tolva.jpg" rel="popover" title="Brett Goldstein" data-content="<span class='popovercontentstyle'>Chief Data Officer</span><br/>City of Chicago"></img></li>
-							<li><img src="images/john_tolva.jpg" rel="popover" title="Nigel Jacobs" data-content="<span class='popovercontentstyle'>Co-Chair</span><br/>Mayor's Office of New Mechanics"></img></li>
-							<li><img src="images/john_tolva.jpg" rel="popover" title="John Tolva" data-content="<span class='popovercontentstyle'>Chief Technology Officer</span><br/>City of Chicago"></img></li>
-			          	</ul>
-					  </div>
-					</div>
+	        <h3 class="ribbon">Mentors</h3>
+					<div class="team_li_cont">
+	          <div class="team_logo"><img src="images/government.png" width="92" height="92" /></div>
+	          <h4 class="redli">Civic/Gov</h4>
+	          <ul>
+	            <li>Nigel Jacob</li>
+	            <li>Jay Nath</li>
+	            <li>Andrew Hoppin</li>
+	            <li>Dominic Campbell</li>
+	            <li>Marci Harris</li>
+	            <li>Ryan & Mike Alfred</li>
+	            <li>Ben Berkowitz</li>
+	
+	          </ul>
+	        </div>
+	        <div class="team_li_cont">
+	          <div class="team_logo"><img src="images/startUp.png" width="93" height="92" /></div>
+	          <h4 class="redli">Startup/Biz</h4>
+	          <ul>
+	            <li>Carl Tashian</li>
+	            <li>Christian Crumlish</li>
+	            <li>Danese Cooper</li>
+	            <li>David Binetti</li>
+	            <li>Denise Gershbein</li>
+	            <li>DJ Patil</li>
+	            <li>Gill Purchia</li>
+	            <li>Manish Shah</li>
+	            <li>Parker Thompson</li>
+	            <li>Ted Rheingold</li>
+	          </ul>
+	        </div>
+	        <div class="team_li_cont">
+	          <div class="team_logo"><img src="images/industry.png" width="93" height="92" /></div>
+	          <h4 class="redli">VC/Funding</h4>
+	          <ul>
+	            <li>Andrew Parker</li>
+	            <li>Cali Tran</li>
+	            <li>Jeff Clavier</li>
+	          </ul>
+	        </div>
 			    <div id="finish_line_cont"></div>
 			    </div>
 			    <div class="main_cont faq_h" id="faq">
@@ -183,9 +209,9 @@
 			</div>
 			</div>
 			</div>
-			
+			</div>
 			<div id="application">
-			  <div id="main_nav_cont" class="subnav">
+			  <div id="main_nav_cont" class="subnav2">
 					<div id="nav_cont">
           <ul class="nav nav-pills">
 			      <li>The Application</li>
@@ -196,7 +222,7 @@
 			<div id="wrapper">
 			  <div id="main_container" class="app">				
 				  <div id="wufoo-q7x0w7">
-	        Fill out my <a href="http://codeforamerica.wufoo.com/forms/q7x0w7">online form</a>.
+	        Fill out my <a name="application" href="http://codeforamerica.wufoo.com/forms/q7x0w7">online form</a>.
 	        </div>
 	        <script type="text/javascript">var q7x0w7;(function(d, t) {
 	        var s = d.createElement(t), options = {
@@ -238,22 +264,41 @@
 	  <script src="js/application.js"></script>
 	  <script src="js/bootstrap-tooltip.js"></script>
 	  <script src="js/bootstrap-popover.js"></script>
-
+		<script type="text/javascript" src="js/jquery.easing.1.2.js"></script>
+		<script type='text/javascript' src='js/jquery.scrollTo-1.4.2-min.js'></script>
+		<script type='text/javascript' src='js/jquery.localscroll-1.2.7-min.js'></script>
 		<script type="text/javascript">
 
 	  $("div#application").hide(); 
 			$(":button").click(function() {
 		    $("#information").hide();
 		    $("#application").show();
+				window.scrollTo(0,500);
 		   });
 			$("div#application a.back").click(function() {
 		    $("#application").hide();
 		    $("#information").show();
 		   });
 		
-		$('.advisorimages ul li img').popover({
-			placement: 'top',
-			animation: false});
+			$('.advisorimages ul li img').popover({
+				placement: 'bottom',
+				animation: false});
+		
+			// anchor scrolling
+
+			var didScroll = true;
+
+			var sections = $(".wrapper").each(function(index) {
+				$(this).data("height", $(this).height());
+			});
+			var links = $(".subnav a");
+
+			$(".subnav").localScroll({
+				axis : "y",
+				duration : 1000,
+				easing : "easeInOutExpo",
+				hash : true
+			});
 		
 		</script>
 
