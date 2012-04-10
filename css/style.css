@@ -403,6 +403,11 @@ ul{
    _margin-top/**/:/**/ 10px; /* IE 6 only */
 }
 
+.program_cont p{
+	margin: 0px;
+	padding-bottom: 20px;
+}
+
 .proof_cont{
 	text-align:center;
 	float:left;
