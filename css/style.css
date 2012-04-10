@@ -7,6 +7,12 @@ body{
 	font-family: 'Lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';
 }
 
+a {
+	text-decoration: none;
+	color: #4299CE;
+	font-weight: bold;
+}
+
 h1{
 	font-size:37px;
 	color:#3b3b3b;	
