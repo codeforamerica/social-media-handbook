@@ -271,40 +271,10 @@
 		<script type="text/javascript" src="js/jquery.easing.1.2.js"></script>
 		<script type='text/javascript' src='js/jquery.scrollTo-1.4.2-min.js'></script>
 		<script type='text/javascript' src='js/jquery.localscroll-1.2.7-min.js'></script>
-		<script type="text/javascript">
+		<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
 
-	  $("div#application").hide(); 
-			$(":button").click(function() {
-		    $("#information").hide();
-		    $("#application").show();
-				window.scrollTo(0,500);
-		   });
-			$("div#application a.back").click(function() {
-		    $("#application").hide();
-		    $("#information").show();
-		   });
-		
-			$('.advisorimages ul li img').popover({
-				placement: 'bottom',
-				animation: false});
-		
-			// anchor scrolling
 
-			var didScroll = true;
-
-			var sections = $(".wrapper").each(function(index) {
-				$(this).data("height", $(this).height());
-			});
-			var links = $(".subnav a");
-
-			$(".subnav").localScroll({
-				axis : "y",
-				duration : 1000,
-				easing : "easeInOutExpo",
-				hash : true
-			});
-		
-		</script>
+		<script type='text/javascript' src='app.js'></script>
 
   </body>
 </html>

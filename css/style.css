@@ -1340,8 +1340,13 @@ font-size: 20px;
 font-weight: 400;
 line-height: 66px;
 }
-
+.close:hover {
+	cursor: pointer;
+}
 #application {
 	height: 1750px;
+	overflow: hidden;
+}
+#information {
 	overflow: hidden;
 }
