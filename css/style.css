@@ -269,7 +269,8 @@ ul{
 #wrapper{
 	float:left;
 	width:100%;
-	height:auto;	
+	height:auto;
+	margin-top:72px; /* need to account for the size of the nav */
 }
 
 #main_container{
@@ -548,7 +549,7 @@ img.advisoricons{
 
 /* Subnav */
 .subnav {
-  position: static;
+  position: absolute;
   top: auto;
   z-index: auto;
 
