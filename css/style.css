@@ -1347,6 +1347,11 @@ line-height: 66px;
 	height: 1750px;
 	overflow: hidden;
 }
+
+#application #wrapper {
+	margin-top: 0px;
+}
+
 #information {
 	overflow: hidden;
 }
