@@ -269,7 +269,8 @@ ul{
 #wrapper{
 	float:left;
 	width:100%;
-	height:auto;	
+	height:auto;
+	margin-top:72px; /* need to account for the size of the nav */
 }
 
 #main_container{
@@ -554,7 +555,7 @@ img.advisoricons{
 
 /* Subnav */
 .subnav {
-  position: static;
+  position: absolute;
   top: auto;
   z-index: auto;
 
@@ -1345,8 +1346,18 @@ font-size: 20px;
 font-weight: 400;
 line-height: 66px;
 }
-
+.close:hover {
+	cursor: pointer;
+}
 #application {
 	height: 1750px;
+	overflow: hidden;
+}
+
+#application #wrapper {
+	margin-top: 0px;
+}
+
+#information {
 	overflow: hidden;
 }

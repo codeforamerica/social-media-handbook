@@ -46,7 +46,9 @@
     // fix sub nav on scroll
     var $win = $(window)
       , $nav = $('.subnav')
-      , navTop = $('.subnav').length && $('.subnav').offset().top - 40
+      // HACK: we've removed a magic 40px buffer from navTop
+      // note none of this code should really be being used anyway (see top of file) :P
+      , navTop = $('.subnav').length && $('.subnav').offset().top
       , isFixed = 0
 
     processScroll()
@@ -90,7 +92,7 @@
       })
 
     // carousel demo
-    $('#myCarousel').carousel()
+//    $('#myCarousel').carousel()
 
     // javascript build logic
     var inputsComponent = $("#components.download input")
