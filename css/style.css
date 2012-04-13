@@ -435,7 +435,7 @@ img.advisoricons{
 
 .advisorimages{
 	clear: both;
-	height: 200px;
+	height: 150px;
 }
 
 .advisorimages div{
@@ -478,8 +478,14 @@ img.advisoricons{
 
 .team_li_cont li{
 	color: #5D5D5C;
-    font-size:  18px;
-    margin-bottom: 5px;
+  font-size:  18px;
+  margin-bottom: 13px;
+}
+
+.affiliation {
+	font-style: italic;
+	color: #828181;
+	font-size: 16px;
 }
 
 .faq_h h1{
