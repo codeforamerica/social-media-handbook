@@ -479,7 +479,9 @@ img.advisoricons{
 
 .team_li_cont li{
 	color: #5D5D5C;
-  font-size:  18px;
+	font-size:  18px;
+	line-height: 2em;
+
 }
 
 .faq_h h1{
