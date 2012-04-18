@@ -251,7 +251,7 @@ ul{
 
 #nav_cont ul li a{
 	float:left;
-	padding:0px 35px;
+	padding:0px 34px;
 	text-decoration:none;
 	color:#3b3b3b;
 	display:block;
@@ -479,7 +479,9 @@ img.advisoricons{
 
 .team_li_cont li{
 	color: #5D5D5C;
-  font-size:  18px;
+	font-size:  18px;
+	line-height: 2em;
+
 }
 
 .faq_h h1{
