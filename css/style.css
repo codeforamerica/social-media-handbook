@@ -68,13 +68,13 @@ ul{
 
 #header{
 	width:100%;
-	height:85px;
+	height:100px;
 	background:url(../images/header_top_bg.jpg) repeat-x;	
 }
 
 #header_logo_cont{
 	width:870px;
-	height:141px;
+	height:100px;
 	margin:0px auto;
 	text-align:center;	
 }
@@ -94,7 +94,7 @@ ul{
 }
 
 #banner_txt{
-	width:870px;
+	width:970px;
 	height:287px;
 	margin:0px auto;
 	text-align:right;
