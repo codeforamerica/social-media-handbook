@@ -145,8 +145,9 @@ ul{
 		#0284db);
 	background: -webkit-gradient(
 		linear, left top, left bottom, 
-		from(#cdd6df), 
-		to(#5f6e81));
+		from(#2fa3eb),
+		color-stop(0.25, #66a7ed),
+		to(#0284db));
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
