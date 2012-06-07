@@ -229,7 +229,7 @@ ul{
 }
 
 #nav_cont{
-	width:880px;
+	width:980px;
 	height:84px;
 	margin:0px auto;
 }
@@ -307,6 +307,11 @@ ul{
 	width:470px;
 	font-weight:normal;
 	color:#5d5d5c;	
+}
+
+.left_art li {
+	list-style: disc inside;
+	list-style-position: outside;
 }
 
 .spend_cont{
