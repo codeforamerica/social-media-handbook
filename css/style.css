@@ -375,7 +375,7 @@ ul{
 	float:left;
 	width:100%;
 	height:60px;
-	background:url(../images/finishing_line.jpg) center no-repeat;
+	background:url(../images/finishing_line.png) center no-repeat;
 	margin:24px 0px 15px;	
 }
 
@@ -484,10 +484,10 @@ img.advisoricons{
 }
 
 #footer_cont{
-	float:left;
-	width:100%;
-	height:50px;
-	background:#c91f3d;
+	float: left;
+	width: 100%;
+	height: 50px;
+	background: #00c8d5;
 	text-align: center;
 }
 
