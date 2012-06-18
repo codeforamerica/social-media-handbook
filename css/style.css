@@ -40,7 +40,7 @@ h3.ribbon{
 	height:61px;
 	padding-top:3px;
 	line-height: 43px;
-	background:url(../images/team_heading.png) center no-repeat;	
+	background:url(../images/ribbon.png) center no-repeat;	
 }
 
 h4 {
@@ -71,37 +71,6 @@ ul{
 	height:347px;
 	position:relative;	
 	background: #F3F1F1 url(../img/banner_image.png) center no-repeat;
-}
-
-#banner_txt{
-	width:1000px;
-	height:287px;
-	margin:0px auto;
-	text-align:right;
-	padding:30px 0px;
-}
-
-.top_cufon{
-	font-size:64px;
-	line-height:75px;
-	color:#fff;
-	font-family: 'Alfa Slab One', cursive;
-	text-shadow:8px 7px 8px #4e4749;
-	-moz-text-shadow:8px 7px 8px #4e4749;
-	-webkit-text-shadow:8px 7px 8px #4e4749;
-}
-
-.cufon{	
-	margin-top:5px;
-}
-
-.banner_des{
-	font-size:25px;
-	font-weight:400;
-	color:#fff;	
-	float:right;
-	margin-right:4px;
-	margin-top:3px;
 }
 
 .button {
@@ -181,22 +150,6 @@ ul{
 		0px -1px 0px rgba(000,000,000,0.2),
 		0px 1px 0px rgba(255,255,255,0.3);
 }
-
-/*input{
-	float:right;
-	border:none;
-	width:233px;
-	height:67px;
-	text-align:center;
-	font-weight:bold;
-	color:#fff;	
-	font-size:30px;
-	cursor:pointer;	
-	clear:both;
-	margin-top:20px;
-	margin-right:10px;
-	background:	url(../images/apply_btn.png) 0 4px no-repeat;
-}*/
 
 .apply input:hover{
 	background:url(../images/apply_btn.png) left bottom no-repeat;
