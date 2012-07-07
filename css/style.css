@@ -230,7 +230,7 @@ ul{
 .top_art_cont{
 	width:850px;
 	float:left;	
-	font-size:18px;
+	font-size:17px;
 	height:auto;
 	color:#5d5d5c;
 }
@@ -339,7 +339,7 @@ ul{
 }
 
 .program_cont ul li{
-	font-size:20px;
+	font-size:17px;
 	color:#5d5d5c;
 	margin-bottom:10px;
 }
@@ -351,6 +351,10 @@ ul{
    _margin-top:/**/ 10px; /* IE 5.5 only */
    _margin-top/**/:/**/ 10px; /* IE 6 only */
 }
+
+ul.a {list-style-type:square;}
+ul.b {list-style-type:disc; padding-left:20px;}
+ul.c {list-style-type:circle;padding-left:20px;}
 
 .program_cont p{
 	margin: 0px;
