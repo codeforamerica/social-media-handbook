@@ -56,7 +56,7 @@
       }
 
     , process: function () {
-        var scrollTop = this.$scrollElement.scrollTop() + this.options.offset + 70
+        var scrollTop = this.$scrollElement.scrollTop() + this.options.offset + 170
           , offsets = this.offsets
           , targets = this.targets
           , activeTarget = this.activeTarget
