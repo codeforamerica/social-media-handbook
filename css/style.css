@@ -60,6 +60,13 @@ h5 a{
 	color:#3b3b3b;	
 }
 
+h6 {
+  color: #000000;
+  font-size: 20px;
+  -webkit-margin-after: .75em;
+  -webkit-margin-before: 1.25em;
+}
+
 ul{
 	margin:0px;
 	padding:0px;
@@ -332,16 +339,35 @@ ul{
 	margin:24px 0px 15px;	
 }
 
+.secondnav {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px auto;
+}
+
+.numbers, .arrows {
+  color: #F1D64B;
+  font-weight: bold;
+}
+
+.numbers {
+  font-size: 24px;
+}
+
+.numbers {
+  font-size: 23px;
+}
+
 .program_cont ul{
-	margin-left:20px;
-	padding:0px;
-	list-style:disc;	
+	margin-left: 20px;
+	padding: 0px;
 }
 
 .program_cont ul li{
-	font-size:17px;
-	color:#5d5d5c;
-	margin-bottom:10px;
+	font-size: 17px;
+	color: #5d5d5c; 
+	margin-bottom: 6px;
 }
 
 .program_cont ul li .cufon{
@@ -351,10 +377,6 @@ ul{
    _margin-top:/**/ 10px; /* IE 5.5 only */
    _margin-top/**/:/**/ 10px; /* IE 6 only */
 }
-
-ul.a {list-style-type:square;}
-ul.b {list-style-type:disc; padding-left:20px;}
-ul.c {list-style-type:circle;padding-left:20px;}
 
 .program_cont p{
 	margin: 0px;
