@@ -359,6 +359,14 @@ ul{
   font-size: 23px;
 }
 
+.program_cont{
+  width:850px;
+  float:left; 
+  height:auto;
+  color:#5d5d5c;
+  padding-top: 60px;
+}
+
 .program_cont ul{
 	margin-left: 20px;
 	padding: 0px;
@@ -479,13 +487,6 @@ img.advisoricons{
 	color: #ffffff;
 	margin: auto;
 	padding-top: 25px;
-}
-
-.program_cont{
-	width:850px;
-	float:left;	
-	height:auto;
-	color:#5d5d5c;
 }
 
 .span3 img {
