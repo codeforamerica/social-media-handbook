@@ -1328,3 +1328,7 @@ line-height: 66px;
 #information {
 	overflow: hidden;
 }
+
+#logo {
+	text-align: center;
+}
