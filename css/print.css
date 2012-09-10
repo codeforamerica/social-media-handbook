@@ -1,0 +1,9 @@
+/* don't show feedback tab */
+.gsfn-widget-tab{
+  display: none;
+}
+
+/* don't show background space */
+#banner_bg{
+  display: none;
+}
