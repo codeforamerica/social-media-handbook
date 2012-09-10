@@ -1,6 +1,6 @@
 /* don't show feedback tab */
 .gsfn-widget-tab{
-  display: none;
+  display: none !important;
 }
 
 /* don't show background space */
