@@ -1,5 +1,5 @@
 <h1>About:</h1> 
-<p>This Social Media Handbook is a guidebook for cities to using social media to better communicate with and engage citizens. The handbook was initially created for the City & County of Honolulu, but it has been genericized and is applicable to all cities. It's a useful tool for city departments and representatives to leverage the fast and viral power of social media, which can spark civic engagement for free. </p>
+<p>This Social Media Handbook is a guidebook for cities to using social media to better communicate with and engage citizens. The handbook was initially created by <a href="http://codeforamerica.org">Code for America</a> for the <a href="http://honolulu.gov">City & County of Honolulu</a>, but this version has been genericized and is applicable to all cities. It's a useful tool for city departments and representatives to leverage the fast and viral power of social media, which can spark civic engagement for free. </p>
 
 <p>Social media helps cities in their core mission of reaching more constituents to more broadly share government information and activities.It allows cities to communicate directly with citizens, and can increase government transparency. Unfortunately, many cities aren't equipped to make the best use of social media to unlock its real potential. Here's where the guidebook comes in.</p>
 
