@@ -7,5 +7,5 @@
 <ul><li><a href="http://codeforamerica.org/author/sheba/">Sheba Najmi</a>, Code for America 2012 Fellow</li>
 <li><a href="http://codeforamerica.org/author/lr/">Lauren Reid</a>, Code for America Communications Manager</li>
 <li><a href="http://codeforamerica.org/author/rob-davis">Rob Davis</a>, Code for America 2012 Intern</li>
-<li><a href="http://codeforamerica.org/author/angel/">Angel Kittiyachavalit</a>, Code for America 2012 Fellow</li>
+<li><a href="http://codeforamerica.org/2012-fellows/#Angel Kittiyachavalit">Angel Kittiyachavalit</a>, Code for America 2012 Fellow</li>
 <li><a href="https://twitter.com/KiwiDiva">Louisa Te'i</a>, City & County of Honolulu</li></ul>
