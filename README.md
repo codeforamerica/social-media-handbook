@@ -9,3 +9,12 @@
 <li><a href="http://codeforamerica.org/author/rob-davis">Rob Davis</a>, Code for America 2012 Intern</li>
 <li><a href="http://codeforamerica.org/2012-fellows/#Angel Kittiyachavalit">Angel Kittiyachavalit</a>, Code for America 2012 Fellow</li>
 <li><a href="https://twitter.com/KiwiDiva">Louisa Te'i</a>, City & County of Honolulu</li></ul>
+
+## Copyright
+Copyright (c) 2012 Code for America. See [LICENSE][] for details.
+
+[license]: https://github.com/codeforamerica/cfa_template/blob/master/LICENSE.mkd
+
+[![Code for America Tracker](http://stats.codeforamerica.org/codeforamerica/social-media-handbook.png)][tracker]
+
+[tracker]: http://stats.codeforamerica.org/projects/social-media-handbook 
